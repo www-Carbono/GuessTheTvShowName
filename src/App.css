@@ -1,0 +1,35 @@
+body{
+    background-color: #FFBD12;
+}
+
+.popup-content {
+    border-width: 2px;
+    border-bottom-width: 8px;
+    border-color: black;
+    border-radius: 0.75rem; /* Equivalente a rounded-xl en Tailwind */
+    background-color: white;
+    padding: 0 !important;
+
+}
+
+.modal{
+    border-width: 2px;
+    border-bottom-width: 8px;
+    border-color: black;
+    border-radius: 0.75rem; /* Equivalente a rounded-xl en Tailwind */
+
+}
+
+
+.modal .header , .modal .content{
+text-align: center;
+}
+
+.modal .header{
+    padding: 5px 10px;
+}
+
+.modal .close{
+    margin-bottom: -30px !important;
+
+}
